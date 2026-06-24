@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="fav_icon.svg" />
+
+    <title>events</title>
+    <link rel="stylesheet" href="stylesheet/events.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="/" aria-label="На главную страницу">
+        <img src="/Group 1329 (1).svg" alt="Логотип" />
+      </a>
+      <div class="menu_and_send">
+        <div class="menu">
+          <a href="area.html">территория</a>
+          <a href="shop.html">мерч</a>
+          <a href="events.html">события</a>
+          <a href="history.html">основатель</a>
+        </div>
+        <img class="send_button" src="send.svg" alt="" />
+      </div>
+    </div>
+    <h1 class="main_h1">Ближайшие <br />мероприятия</h1>
+    <div class="events">
+      <div class="event-block">
+        <div class="event-date">01.06</div>
+
+        <div class="event-content">
+          <h2 class="event_h2">ДЕНЬ ИССЛЕДОВАТЕЛЯ</h2>
+
+          <button class="event-tag">игровой формат</button>
+
+          <p>
+            Мероприятие для детей и взрослых, где каждому выдают полевой дневник
+            и задание найти и отметить трёх животных за один визит.
+          </p>
+          <img src="3_poster.png" alt="" />
+        </div>
+        <a href="404.html">
+          <button class="event-ticket">приобрести билет</button>
+        </a>
+      </div>
+      <!-- второй блок -->
+      <div class="event-block">
+        <div class="event-date">12.07</div>
+
+        <div class="event-content">
+          <h2 class="event_h2">Ночная смена</h2>
+
+          <button class="event-tag">ночная экскурсия</button>
+
+          <p>
+            Раз в месяц зоопарк работает до полуночи, экскурсоводы рассказывают,
+            какие голограммы чаще всего появляются после заката.
+          </p>
+          <img src="2_poster.png" alt="" />
+        </div>
+        <a href="404.html">
+          <button class="event-ticket">приобрести билет</button>
+        </a>
+      </div>
+      <!-- третий блок -->
+      <div class="event-block">
+        <div class="event-date">25.07</div>
+
+        <div class="event-content">
+          <h2 class="event_h2">Семейный маршрут</h2>
+
+          <button class="event-tag">игровой формат</button>
+
+          <p>
+            Мероприятие по выходным, где родителям и детям выдают карту
+            с простыми заданиями
+          </p>
+          <img src="1_poster.png" alt="" />
+        </div>
+        <a href="404.html">
+          <button class="event-ticket">приобрести билет</button>
+        </a>
+      </div>
+      <!-- четвертый блок -->
+      <div class="event-block">
+        <div class="event-date">08.08</div>
+
+        <div class="event-content">
+          <h2 class="event_h2">Приручая голограмму</h2>
+
+          <button class="event-tag">лекция</button>
+
+          <p>
+            лекция, где администрация и директор зоопарка расскажут
+            о строительстве и обустройстве пространства и продвижении компании.
+          </p>
+          <img src="4_poster.png" alt="" />
+        </div>
+        <a href="404.html">
+          <button class="event-ticket">приобрести билет</button>
+        </a>
+      </div>
+    </div>
+    <!-- поп ап -->
+    <div class="contact-popup" id="contactPopup">
+      <div class="popup-overlay" id="popupOverlay"></div>
+
+      <div class="popup-content">
+        <button class="popup-close" id="popupClose">−</button>
+
+        <h3>кому: holozoo</h3>
+
+        <form id="popupForm">
+          <input type="text" name="name" value="" placeholder="имя" />
+          <input type="email" name="" value="" placeholder="email" />
+          <input type="tel" name="" value="" placeholder="+7 999 999-99-99" />
+
+          <div class="popup-footer">
+            <p>holozoo@gmail.com</p>
+            <p>@holozoo</p>
+          </div>
+         
+            <button type="submit"> <a href="404.html"> Отправить </a></button>
+          
+        </form>
+      </div>
+    </div>
+    <script src="send_button.js"></script>
+  </body>
+</html>

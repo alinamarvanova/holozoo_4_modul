@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <link rel="icon" type="image/x-icon" href="fav_icon.svg" />
+
+    <title>shop</title>
+  </head>
+  <body>
+    <div class="header">
+      <a href="/" aria-label="На главную страницу">
+        <img src="/Group 1329 (1).svg" alt="Логотип" />
+      </a>
+      <div class="menu_and_send">
+        <div class="menu">
+          <a href="area.html">территория</a>
+          <a href="shop.html">мерч</a>
+          <a href="events.html">события</a>
+          <a href="history.html">основатель</a>
+        </div>
+        <img class="send_button" src="send.svg" alt="" />
+      </div>
+    </div>
+    <!-- контент -->
+    <div class="shop-container">
+      <h1 class="shop-title">МЕРЧ</h1>
+      <!-- грид -->
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <div class="envelope"></div>
+          </div>
+          <p class="product-label">конверт</p>
+          <div class="product-footer">
+            <span class="product-price">790₽</span>
+            <span class="product-id">арт: 2567083</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <div class="bottle"></div>
+          </div>
+          <p class="product-label">термос</p>
+          <div class="product-footer">
+            <span class="product-price">1 590₽</span>
+            <span class="product-id">арт: 5649083</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <div class="phone"></div>
+          </div>
+          <p class="product-label">чехол для телефона</p>
+          <div class="product-footer">
+            <span class="product-price">670₽</span>
+            <span class="product-id">арт: 2567083</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <div class="stikers"></div>
+          </div>
+          <p class="product-label">наклейки</p>
+          <div class="product-footer">
+            <span class="product-price">340₽</span>
+            <span class="product-id">арт: 2567083</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <div class="book"></div>
+          </div>
+          <p class="product-label">блокнот с ручкой</p>
+          <div class="product-footer">
+            <span class="product-price">800₽</span>
+            <span class="product-id">арт: 2567083</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- поп ап -->
+    <div class="contact-popup" id="contactPopup">
+      <div class="popup-overlay" id="popupOverlay"></div>
+
+      <div class="popup-content">
+        <button class="popup-close" id="popupClose">−</button>
+
+        <h3>кому: holozoo</h3>
+
+        <form id="popupForm">
+          <input type="text" name="name" value="" placeholder="имя" />
+          <input type="email" name="" value="" placeholder="email" />
+          <input type="tel" name="" value="" placeholder="+7 999 999-99-99" />
+
+          <div class="popup-footer">
+            <p>holozoo@gmail.com</p>
+            <p>@holozoo</p>
+          </div>
+          <button>
+            <a class="button_pop_up" href="404.html"> Отправить</a>
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="send_button.js"></script>
+  </body>
+</html>
