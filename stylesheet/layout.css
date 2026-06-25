@@ -273,6 +273,30 @@ h1 {
   background-color: transparent;
   cursor: pointer;
 }
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_p {
+  font-size: 32px;
+  font-family: "BebasNeueCyrillic";
+  color: #cbcffb;
+  line-height: 0.9;
+}
+@media (max-width: 320px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
 /* адаптивы */
 @media (max-width: 1220px) {
   .menu {
@@ -336,6 +360,15 @@ h1 {
   .gif_plain_pop-ap {
     flex-direction: column;
     gap: 40px;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 320px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
     align-items: flex-start;
   }
 }
